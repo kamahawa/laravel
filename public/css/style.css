@@ -1,0 +1,26 @@
+#dropdown {
+    margin-top: 16px;
+    width: 1830px
+}
+#dropdown li{
+    list-style:none;
+    line-height: 30px;
+    background: blue;
+    margin: 2px;
+}
+#dropdown li div a{
+    margin-left: 150px;
+    color: #FFF;
+    text-decoration: none;
+}
+
+#dropdown li a{
+    margin-left: 10px;
+    color: #FFF;
+    text-decoration: none;
+}
+.colbox
+{
+    margin-left: 0px;
+    margin-right: 0px;
+}

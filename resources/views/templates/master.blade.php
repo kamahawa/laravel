@@ -1,6 +1,31 @@
 <html>
 <head>
 	<title>Homepage</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Laravel</title>
+
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+
+    <!-- Styles -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+
+    <style>
+        body {
+            font-family: 'Lato';
+        }
+
+        .fa-btn {
+            margin-right: 6px;
+        }
+    </style>
+
 	<link rel="stylesheet" href="{{ URL::asset('public/css/style.css') }}">
 	<script type="text/javascript" src="{{ URL::asset('public/js/jquery-2.1.4.min.js') }}"></script>
     <link href="{{ URL::asset('public/css/theme/style.css') }}" rel="stylesheet" type="text/css" media="all" />
@@ -617,12 +642,12 @@
         <div class="wrap">
             <div class="col_1_of_footer-top span_1_of_footer-top">
                 <ul class="f_list">
-                    <li><span class="delivery">??a ch? :<span class="orange"> Ph?m Th? Hi?n, ph??ng 7, qu?n 8</span></span></li>
+                    <li><span class="delivery">Địa chỉ :<span class="orange"> Phạm Thế Hiển, phường 7, quận 8</span></span></li>
                 </ul>
             </div>
             <div class="col_1_of_footer-top span_1_of_footer-top">
                 <ul class="f_list">
-                    <li><span class="delivery">Li�n h? :<span class="orange"> 0909 68 68 68</span></span></li>
+                    <li><span class="delivery">Liên hệ :<span class="orange"> 0909 68 68 68</span></span></li>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -630,7 +655,7 @@
     </div>
     <div class="copy">
         <div class="wrap">
-            <p>� B?n quy?n thu?c v? Kama Hawa</p>
+            <p>© Bản quyền thuộc về Kama Hawa</p>
         </div>
     </div>
 </div>

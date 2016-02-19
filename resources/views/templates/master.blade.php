@@ -122,16 +122,14 @@
                         <div class="row">
                             <div class="col1">
                                 <div class="h_nav">
-                                    <h4>popular</h4>
+                                    <h4>Nước hoa</h4>
                                     <ul>
-                                        <li><a href="shop.html">new arrivals</a></li>
-                                        <li><a href="shop.html">men</a></li>
-                                        <li><a href="shop.html">women</a></li>
-                                        <li><a href="shop.html">accessories</a></li>
-                                        <li><a href="shop.html">kids</a></li>
-                                        <li><a href="shop.html">login</a></li>
+                                        <li><a href="shop.html">Ck</a></li>
+                                        <li><a href="shop.html">Channel</a></li>
+                                        <li><a href="shop.html">adidas</a></li>
                                     </ul>
                                 </div>
+                                <!--
                                 <div class="h_nav">
                                     <h4 class="top">men</h4>
                                     <ul>
@@ -143,20 +141,32 @@
                                         <li><a href="shop.html">style videos</a></li>
                                     </ul>
                                 </div>
+                                -->
                             </div>
                             <div class="col1">
                                 <div class="h_nav">
-                                    <h4>style zone</h4>
+                                    <h4>Son môi</h4>
                                     <ul>
-                                        <li><a href="shop.html">men</a></li>
-                                        <li><a href="shop.html">women</a></li>
-                                        <li><a href="shop.html">accessories</a></li>
+                                        <li><a href="shop.html">SON MÔI ARITAUM</a></li>
+                                        <li><a href="shop.html">son nước BOURIOIS ROUGE EDITION VELVET</a></li>
+                                        <li><a href="shop.html">Son LANEIGE two tone lip bar</a></li>
                                         <li><a href="shop.html">kids</a></li>
                                         <li><a href="shop.html">brands</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col1"></div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <h4>Macara</h4>
+                                    <ul>
+                                        <li><a href="shop.html">mabeline</a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col1"></div>
                             <div class="col1"></div>
                             <div class="col1"></div>

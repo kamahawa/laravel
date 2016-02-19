@@ -1,8 +1,29 @@
 <html>
 <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
 	<title>Homepage</title>
-    <meta charset="UTF-8">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+    <!-- Fonts -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css" rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700" rel='stylesheet' type='text/css'>
+
+    <!-- Styles -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+    {{-- <link href="{{ elixir('css/app.css') }}" rel="stylesheet"> --}}
+
+    <style>
+        body {
+            font-family: 'Lato';
+        }
+
+        .fa-btn {
+            margin-right: 6px;
+        }
+    </style>
+
 	<link rel="stylesheet" href="{{ URL::asset('public/css/style.css') }}">
 	<script type="text/javascript" src="{{ URL::asset('public/js/jquery-2.1.4.min.js') }}"></script>
     <link href="{{ URL::asset('public/css/theme/style.css') }}" rel="stylesheet" type="text/css" media="all" />
@@ -81,19 +102,13 @@
                 <a href="#"><img src="{{ URL::asset('public/images/web/logo.png') }}" alt=""/></a>
             </div>
             <div class="cssmenu">
+                <!--
                 <ul>
                     <li class="active"><a href="#">Register</a></li>
                     <li><a href="#">Login</a></li>
                 </ul>
+                -->
             </div>
-            <ul class="icon2 sub-icon2 profile_img">
-                <li><a class="active-icon c2" href="#"> </a>
-                    <ul class="sub-icon2 list">
-                        <li><h3>Products</h3><a href=""></a></li>
-                        <li><p>Lorem ipsum dolor sit amet, consectetuer  <a href="">adipiscing elit, sed diam</a></p></li>
-                    </ul>
-                </li>
-            </ul>
             <div class="clear"></div>
         </div>
     </div>
@@ -102,21 +117,19 @@
             <!-- start header menu -->
             <ul class="megamenu skyblue">
                 <li><a class="color1" href="#">Home</a></li>
-                <li class="grid"><a class="color2" href="#">L�m ??p t? nhi�n</a>
+                <li class="grid"><a class="color2" href="#">Mỹ phẩm</a>
                     <div class="megapanel">
                         <div class="row">
                             <div class="col1">
                                 <div class="h_nav">
-                                    <h4>popular</h4>
+                                    <h4>Nước hoa</h4>
                                     <ul>
-                                        <li><a href="shop.html">new arrivals</a></li>
-                                        <li><a href="shop.html">men</a></li>
-                                        <li><a href="shop.html">women</a></li>
-                                        <li><a href="shop.html">accessories</a></li>
-                                        <li><a href="shop.html">kids</a></li>
-                                        <li><a href="shop.html">login</a></li>
+                                        <li><a href="shop.html">Ck</a></li>
+                                        <li><a href="shop.html">Channel</a></li>
+                                        <li><a href="shop.html">adidas</a></li>
                                     </ul>
                                 </div>
+                                <!--
                                 <div class="h_nav">
                                     <h4 class="top">M? ph?m</h4>
                                     <ul>
@@ -128,20 +141,32 @@
                                         <li><a href="shop.html">style videos</a></li>
                                     </ul>
                                 </div>
+                                -->
                             </div>
                             <div class="col1">
                                 <div class="h_nav">
-                                    <h4>style zone</h4>
+                                    <h4>Son môi</h4>
                                     <ul>
-                                        <li><a href="shop.html">men</a></li>
-                                        <li><a href="shop.html">women</a></li>
-                                        <li><a href="shop.html">accessories</a></li>
+                                        <li><a href="shop.html">SON MÔI ARITAUM</a></li>
+                                        <li><a href="shop.html">son nước BOURIOIS ROUGE EDITION VELVET</a></li>
+                                        <li><a href="shop.html">Son LANEIGE two tone lip bar</a></li>
                                         <li><a href="shop.html">kids</a></li>
                                         <li><a href="shop.html">brands</a></li>
                                     </ul>
                                 </div>
                             </div>
-                            <div class="col1"></div>
+                            <div class="col1">
+                                <div class="h_nav">
+                                    <h4>Macara</h4>
+                                    <ul>
+                                        <li><a href="shop.html">mabeline</a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                        <li><a href="shop.html"></a></li>
+                                    </ul>
+                                </div>
+                            </div>
                             <div class="col1"></div>
                             <div class="col1"></div>
                             <div class="col1"></div>
@@ -149,7 +174,7 @@
                         </div>
                     </div>
                 </li>
-                <li class="active grid"><a class="color4" href="#">M? Ph?m</a>
+                <li class="active grid"><a class="color4" href="#">Làm đẹp tự nhiên</a>
                     <div class="megapanel">
                         <div class="row">
                             <div class="col1">
@@ -232,8 +257,8 @@
                         </div>
                     </div>
                 </li>
-                <li><a class="color5" href="#">About us</a></li>
-                <li><a class="color12" href="#">Li�n h?</a></li>
+                <li><a class="color10" href="#">About Us</a></li>
+                <li><a class="color12" href="#">Liên hệ</a></li>
             </ul>
             <div class="clear"></div>
         </div>
@@ -245,12 +270,12 @@
         <div class="wrap">
             <div class="col_1_of_footer-top span_1_of_footer-top">
                 <ul class="f_list">
-                    <li><span class="delivery">??a ch? :<span class="orange"> Ph?m Th? Hi?n, ph??ng 7, qu?n 8</span></span></li>
+                    <li><span class="delivery">Địa chỉ :<span class="orange"> Phạm Thế Hiển, phường 7, quận 8</span></span></li>
                 </ul>
             </div>
             <div class="col_1_of_footer-top span_1_of_footer-top">
                 <ul class="f_list">
-                    <li><span class="delivery">Li�n h? :<span class="orange"> 0909 68 68 68</span></span></li>
+                    <li><span class="delivery">Liên hệ :<span class="orange"> 0909 68 68 68</span></span></li>
                 </ul>
             </div>
             <div class="clear"></div>
@@ -258,7 +283,7 @@
     </div>
     <div class="copy">
         <div class="wrap">
-            <p>� B?n quy?n thu?c v? Kama Hawa</p>
+            <p>© Bản quyền thuộc về Kama Hawa</p>
         </div>
     </div>
 </div>

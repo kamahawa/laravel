@@ -5,7 +5,7 @@
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="{{ URL::asset('public/images/favicon.png') }}">
-    <title>Homepage</title>
+    <title>@yield('title')</title>
     <link href="{{ URL::asset('public/css/themeshop/bootstrap.css') }}" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,700,500italic,100italic,100' rel='stylesheet' type='text/css'>
     <link href="{{ URL::asset('public/css/themeshop/font-awesome.min.css') }}" rel="stylesheet">
@@ -66,7 +66,8 @@
                 <div class="navbar-collapse collapse">
                    <ul class="nav navbar-nav">
                       <li class="active dropdown">
-                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Home</a>
+                         <a href="#">Trang chủ</a>
+                         <!--
                          <div class="dropdown-menu">
                             <ul class="mega-menu-links">
                                <li><a href="index.html">home</a></li>
@@ -81,11 +82,11 @@
                                <li><a href="contact.html">contact</a></li>
                             </ul>
                          </div>
+                         -->
                       </li>
-                      <li><a href="productgird.html">men</a></li>
-                      <li><a href="productlitst.html">women</a></li>
+                      <li><a href="productgird.html">Làm đẹp tự nhiên</a></li>
                       <li class="dropdown">
-                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Fashion</a>
+                         <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Mỹ phẩm</a>
                          <div class="dropdown-menu mega-menu">
                             <div class="row">
                                <div class="col-md-6 col-sm-6">
@@ -111,11 +112,24 @@
                             </div>
                          </div>
                       </li>
-                      <li><a href="productgird.html">gift</a></li>
-                      <li><a href="productgird.html">kids</a></li>
-                      <li><a href="productgird.html">blog</a></li>
-                      <li><a href="productgird.html">jewelry</a></li>
-                      <li><a href="contact.html">contact us</a></li>
+                      <li class="dropdown">
+                         <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Tạp hóa</a>
+                         <div class="dropdown-menu mega-menu">
+                            <div class="row">
+                               <div class="col-md-6 col-sm-6">
+                                  <ul class="mega-menu-links">
+                                     <li><a href="productgird.html">New Collection</a></li>
+                                     <li><a href="productgird.html">Shirts & tops</a></li>
+                                     <li><a href="productgird.html">Laptop & Brie</a></li>
+                                     <li><a href="productgird.html">Dresses</a></li>
+                                     <li><a href="productgird.html">Blazers & Jackets</a></li>
+                                     <li><a href="productgird.html">Shoulder Bags</a></li>
+                                  </ul>
+                               </div>
+                            </div>
+                         </div>
+                      </li>
+                      <li><a href="contact.html">Liên hệ</a></li>
                    </ul>
                 </div>
              </div>

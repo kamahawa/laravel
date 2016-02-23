@@ -24,16 +24,20 @@
 */
 
 
+
+Route::get('/', 'HomeController@index');
+
+Route::get('/home', 'HomeController@index');
+
 Route::group(['middleware' => ['web']], function () {
     //
+
 });
 
 Route::group(['middleware' => 'web'], function () {
     Route::auth();
 
-    Route::get('/', 'HomeController@index');
-
-    Route::get('/home', 'HomeController@index');
+    Route::get('/quanly', 'ManageController@index');
 
     //User
     Route::get('/user', 'UserController@homePage');

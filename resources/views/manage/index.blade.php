@@ -1,6 +1,6 @@
 @extends('templates.admin')
 @section('title')
-Qu?n l�
+Quản lý
 @stop
 
 @section('content')

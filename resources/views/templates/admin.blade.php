@@ -27,12 +27,12 @@
                     <div class="navbar-collapse collapse">
                         <ul class="nav navbar-nav">
                             <li class="active dropdown">
-                                <a href="#">Trang ch?</a>
+                                <a href="#">Trang chủ</a>
 
                             </li>
-                            <li><a href="productgird.html">L�m ??p t? nhi�n</a></li>
+                            <li><a href="productgird.html">Làm đẹp tự nhiên</a></li>
                             <li class="dropdown">
-                                <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">M? ph?m</a>
+                                <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Mỹ phẩm</a>
                                 <div class="dropdown-menu mega-menu">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
@@ -59,7 +59,7 @@
                                 </div>
                             </li>
                             <li class="dropdown">
-                                <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">T?p h�a</a>
+                                <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Tạp hóa</a>
                                 <div class="dropdown-menu mega-menu">
                                     <div class="row">
                                         <div class="col-md-6 col-sm-6">
@@ -75,7 +75,7 @@
                                     </div>
                                 </div>
                             </li>
-                            <li><a href="contact.html">Li�n h?</a></li>
+                            <li><a href="contact.html">Liên hệ</a></li>
                         </ul>
                     </div>
                 </div>

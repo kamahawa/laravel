@@ -199,7 +199,12 @@
 </div>
 
 <div class="clearfix"></div>
+
+<div class="container_fullwidth">
+    <div class="container">
 	@yield('content')
+	</div>
+</div>
 
 <div class="clearfix"></div>
 
@@ -263,5 +268,8 @@
 <script type="text/javascript" src="{{ URL::asset('public/js/themeshop/jquery.carouFredSel-6.2.1-packed.js') }}"></script>
 <script defer src="{{ URL::asset('public/js/themeshop/jquery.flexslider.js') }}"></script>
 <script type="text/javascript" src="{{ URL::asset('public/js/themeshop/script.min.js') }}" ></script>
+
+@yield('js')
+
 </body>
 </html>

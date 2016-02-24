@@ -28,6 +28,7 @@
 Route::get('/', 'HomeController@index');
 
 Route::get('/home', 'HomeController@index');
+Route::get('/details/productId/{id}', 'HomeController@details');
 
 Route::group(['middleware' => ['web']], function () {
     //

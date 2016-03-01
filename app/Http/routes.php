@@ -29,6 +29,9 @@ Route::get('/', 'HomeController@index');
 
 Route::get('/home', 'HomeController@index');
 Route::get('/details/productId/{id}', 'HomeController@details');
+Route::get('/lamdeptunhien', 'ManageProductController@lamdeptunhien');
+Route::get('/mypham', 'ManageProductController@mypham');
+Route::get('/taphoa', 'ManageProductController@taphoa');
 
 Route::group(['middleware' => ['web']], function () {
     //

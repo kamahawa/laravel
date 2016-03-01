@@ -66,7 +66,7 @@
                 <div class="navbar-collapse collapse">
                    <ul class="nav navbar-nav">
                       <li class="active dropdown">
-                         <a href="#">Trang chủ</a>
+                         <a href="/">Trang chủ</a>
                          <!--
                          <div class="dropdown-menu">
                             <ul class="mega-menu-links">
@@ -84,21 +84,11 @@
                          </div>
                          -->
                       </li>
-                      <li><a href="productgird.html">Làm đẹp tự nhiên</a></li>
+                      <li><a href="lamdeptunhien">Làm đẹp tự nhiên</a></li>
                       <li class="dropdown">
-                         <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Mỹ phẩm</a>
+                         <a href="mypham" class="dropdown-toggle">Mỹ phẩm</a>
                          <div class="dropdown-menu mega-menu">
                             <div class="row">
-                               <div class="col-md-6 col-sm-6">
-                                  <ul class="mega-menu-links">
-                                     <li><a href="productgird.html">New Collection</a></li>
-                                     <li><a href="productgird.html">Shirts & tops</a></li>
-                                     <li><a href="productgird.html">Laptop & Brie</a></li>
-                                     <li><a href="productgird.html">Dresses</a></li>
-                                     <li><a href="productgird.html">Blazers & Jackets</a></li>
-                                     <li><a href="productgird.html">Shoulder Bags</a></li>
-                                  </ul>
-                               </div>
                                <div class="col-md-6 col-sm-6">
                                   <ul class="mega-menu-links">
                                      <li><a href="productgird.html">New Collection</a></li>
@@ -113,7 +103,8 @@
                          </div>
                       </li>
                       <li class="dropdown">
-                         <a href="productlitst.html" class="dropdown-toggle" data-toggle="dropdown">Tạp hóa</a>
+                         <!-- <a href="taphoa" class="dropdown-toggle" data-toggle="dropdown">Tạp hóa</a> -->
+                         <a href="taphoa" class="dropdown-toggle">Tạp hóa</a>
                          <div class="dropdown-menu mega-menu">
                             <div class="row">
                                <div class="col-md-6 col-sm-6">
